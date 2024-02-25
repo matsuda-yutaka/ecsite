@@ -9,7 +9,7 @@ import com.diworksdev.template.dto.BuyItemDTO;
 import com.diworksdev.template.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
-public abstract class LoginAction extends ActionSupport implements SessionAware {
+public class LoginAction extends ActionSupport implements SessionAware {
 
 	private String loginUserId;
 	private String loginPassword;

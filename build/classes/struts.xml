@@ -16,10 +16,10 @@
 		</action>
 
 		<!-- LoginAction -->
-		<!-- <action name="LoginAction" class="com.diworksdev.template.action.LoginAction" method="execute">
+		<action name="LoginAction" class="com.diworksdev.template.action.LoginAction" method="execute">
 			<result name="success">buyItem.jsp</result>
 			<result name="error">home.jsp</result>
-		</action> -->
+		</action>
 
 		<!-- UserCreateAction -->
 		<!-- <action name="UserCreateAction" class="com.diworksdev.template.action.UserCreateAction" method="execute">
