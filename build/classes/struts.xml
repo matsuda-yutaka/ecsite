@@ -38,9 +38,9 @@
 		</action>
 
 		<!-- BuyItemAction -->
-		<!-- <action name="BuyItemAction" class="com.diworksdev.template.action.BuyItemAction" method="execute">
+		<action name="BuyItemAction" class="com.diworksdev.template.action.BuyItemAction" method="execute">
 			<result name="success">buyItemConfirm.jsp</result>
-		</action> -->
+		</action>
 
 		<!-- BuyItemConfirmAction -->
 		<!-- <action name="BuyItemConfirmAction" class="com.diworksdev.template.action.BuyItemConfirmAction" method="execute">
