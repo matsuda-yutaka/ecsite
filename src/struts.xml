@@ -43,9 +43,9 @@
 		</action>
 
 		<!-- BuyItemConfirmAction -->
-		<!-- <action name="BuyItemConfirmAction" class="com.diworksdev.template.action.BuyItemConfirmAction" method="execute">
+		<action name="BuyItemConfirmAction" class="com.diworksdev.template.action.BuyItemConfirmAction" method="execute">
 			<result name="success">buyItemConplete.jsp</result>
-		</action> -->
+		</action>
 
 		<!-- MypageAction -->
 		<!-- <action name="MypageAction" class="com.diworksdev.template.action.MypageAction" method="execute">

@@ -8,7 +8,6 @@ import com.diworksdev.template.util.DBConnector;
 import com.diworksdev.template.util.DateUtil;
 
 public class BuyItemCompleteDAO {
-
 	private DateUtil dateUtil = new DateUtil();
 
 	private String sql = "INSERT INTO user_buy_item_transaction (item_transaction_id, total_price, total_count, user_master_id, pay, insert_date) VALUES(?, ?, ?, ?, ?, ?)";
@@ -18,7 +17,7 @@ public class BuyItemCompleteDAO {
 		Connection connection = dbConnector.getConnection();
 
 		try {
-			PreparedStatement preparedStatement =connection.prepareStatement(sql);
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setString(1, item_transaction_id);
 			preparedStatement.setString(2, total_price);
 			preparedStatement.setString(3, total_count);
@@ -30,11 +29,8 @@ public class BuyItemCompleteDAO {
 
 		} catch(Exception e) {
 			e.printStackTrace();
-
 		} finally {
 			connection.close();
 		}
-
 	}
-
 }
