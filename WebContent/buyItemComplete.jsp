@@ -69,7 +69,7 @@
 			<div>
 				<p>購入手続きが完了しました。</p>
 				<div>
-					<a href='<s:url action="MypageAction" />'>マイページ</a>
+					<a href='<s:url action="MyPageAction" />'>マイページ</a>
 					<span>から購入履歴の確認が可能です。</span>
 					<p>
 				</div>
